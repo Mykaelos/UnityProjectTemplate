@@ -1,4 +1,4 @@
-This Unity Project Template project is a project that ironically makes it faster to start new projects.
+This Unity Project Template project is a project that ironically makes it faster to start new projects for me.
 
 Unity Project Template setup steps:
 
