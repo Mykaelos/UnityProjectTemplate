@@ -7,5 +7,5 @@ Unity Project Template setup steps:
 3. Delete gitinit-RUN-THEN-DELETE.bat
 4. Create new repo at https://github.com/
 5. Add remote URL via CMD 
-	git remote add origin https://github.com/Mykaelos/<PROJECT_NAME>.git
-	git push origin master
+    git remote add origin https://github.com/Mykaelos/<PROJECT_NAME>.git
+    git push origin master
