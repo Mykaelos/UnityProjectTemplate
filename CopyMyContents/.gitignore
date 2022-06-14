@@ -5,11 +5,12 @@
 [Oo]bj/
 [Bb]uild
 [Bb]uilds
-[Ll]ibrary/
+[Ll]ibrary/*
 [Ll]ogs/
 sysinfo.txt
 .gradle/
- 
+
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -24,7 +25,8 @@ sysinfo.txt
 /*.booproj
 /.vs/**/.suo
 /.vs/**/Server/sqlite3/
- 
+
+
 # ============ #
 # OS generated #
 # ============ #
@@ -36,8 +38,25 @@ Icon?
 ehthumbs.db
 [Tt]humbs.db
 
+
 # ===== #
 # Other #
 # ===== #
 [Ii]gnore/
 ~$*
+# Ignore Any root Temp folders like AssetProjectsTemp.
+/*[Tt]emp
+
+
+# ======================== #
+# Unity Library Exceptions #
+# ======================== #
+# LastSceneManagerSetup is so the project doesn't start in a blank scene. Remove it if multiple people work on the project.
+![Ll]ibrary/LastSceneManagerSetup.txt
+
+# .asset files are nice to keep: https://stackoverflow.com/questions/59742994/should-i-push-the-unity-library-folder-to-github
+!/[Ll]ibrary/*.asset
+
+# ShaderCache can be deleted when Unity builds slow down.
+
+# StateCache could be saved to preserve the editor state, but it changes constantly and probably isn't needed.
