@@ -25,6 +25,7 @@ sysinfo.txt
 /*.booproj
 /.vs/**/.suo
 /.vs/**/Server/sqlite3/
+/.vsconfig
 
 
 # ============ #
@@ -56,6 +57,9 @@ ehthumbs.db
 
 # .asset files are nice to keep: https://stackoverflow.com/questions/59742994/should-i-push-the-unity-library-folder-to-github
 !/[Ll]ibrary/*.asset
+# Except for constantly changing .asset files...
+Library/InspectorExpandedItems.asset
+Library/SceneVisibilityState.asset
 
 # ShaderCache can be deleted when Unity builds slow down.
 
